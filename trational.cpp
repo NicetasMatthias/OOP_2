@@ -17,6 +17,11 @@ void TRational::norm()
     int nod = std::gcd(TRational::a,TRational::b);
     TRational::a=TRational::a/nod;
     TRational::b=TRational::b/nod;
+    if (TRational::b < 0)
+    {
+        TRational::a *= -1;
+        TRational::b *= -1;
+    }
     return;
 }
 
