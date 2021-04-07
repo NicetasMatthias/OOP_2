@@ -11,6 +11,7 @@ private:
     number c;
 public:
     polinom();
+    ~polinom();
     void set(number a,number b,number c);
     void roots(short &flag, number &x1, number &x2);
     number value(number x);

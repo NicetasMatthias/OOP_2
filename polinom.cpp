@@ -1,11 +1,19 @@
 #include "polinom.h"
 
+#include <iostream>
+
 polinom::polinom()
 {
 polinom::a=1;
 polinom::b=0;
 polinom::c=0;
 }
+
+polinom::~polinom()
+{
+
+}
+
 void polinom::set(number a,number b,number c)
 {
     polinom::a=a;

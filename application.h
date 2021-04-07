@@ -14,6 +14,7 @@ private:
 
 public:
     application();
+    ~application();
     void menu();
 };
 

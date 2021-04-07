@@ -7,6 +7,11 @@ application::application()
     application::var=0;
 }
 
+application::~application()
+{
+
+}
+
 void application::menu()
 {
     short flag;
